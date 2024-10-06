@@ -45,6 +45,7 @@ for player in playerest:
 这里的函数有问题，没传参就调用了，居然还不会中止，添加括号获取其返回值
 当你在 Python 中查询一个方法但没有调用它时（没有在方法名后加上 ()），
 Python 会返回一个表示该方法的函数对象，而不是其执行结果。这个对象的表示形式就像你看到的那样：
+不是吧
 """
 for player in playerest:
     if player == 'michael':
