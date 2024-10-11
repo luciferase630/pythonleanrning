@@ -16,6 +16,9 @@ my_dog._sit()
 print(my_dog._addedattribute)  # 这个是protected的
 #print(my_dog.__age)  # 这行会报错，因为这个__age这个属性，就是私有的
 """
+第九章 类
+"""
+"""
 1上面就清清楚楚的写了一个狗类，这个init 必须得__init__这样来声明，真是服了
 2这里面怎么不声明属性啊？
 属性是相当于就在init里。我真是服了他了

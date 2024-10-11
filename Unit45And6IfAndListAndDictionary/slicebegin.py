@@ -1,5 +1,4 @@
-
-players = [' charles '  , ' marijuana '   , 'michael'  , 'florence']
+players = [' charles ', ' marijuana ', 'michael', 'florence']
 print(players[0:3])
 """
 4.4切片，就是使用列表的一部分
@@ -32,10 +31,15 @@ dimensions=(200,100)
 缩进在file->settings->code style-> python
 空行可以将程序隔开，但是别滥用。举例：三行创建列表，五行处理列表
 """
-playerest=players
+playerest = players
 print(playerest)
 """
-5if
+第五章
+if语句
+它自己说自己叫if语句。。。其实就是选择结构
+"""
+"""
+if 语句
 选择语句
 for player in playerest:
     if player == 'michael':
@@ -73,12 +77,12 @@ for player in playerest:
         print(player.upper)
     else:
         print(player.title())
-requested_players=players
+requested_players = players
 print('mushrooms' in requested_players)
 print('michael' in requested_players)
 if 'mushrooms' in requested_players:
     print("not found")
-elif  'michael' in requested_players:
+elif 'michael' in requested_players:
     print('found')
 else:
     print("fine,ok")
@@ -131,17 +135,16 @@ users={
     
 
 """
-alien={'color': 'red', ' points ':5}
+alien = {'color': 'red', ' points ': 5}
 print(alien['color'])
-for key,value in alien.items():
-    print('\nKey:'+key)
-    print('Value',value)
+for key, value in alien.items():
+    print('\nKey:' + key)
+    print('Value', value)
 print(alien.pop('color'))
-#这里删除了color
+# 这里删除了color
 for name in alien.keys():
-     print(name)
-pizza={
+    print(name)
+pizza = {
     'crust': 'thick',
     'toppings': ['mushroooms', 'extra cheese']
- }
-
+}

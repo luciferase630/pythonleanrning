@@ -1,10 +1,11 @@
-import pandas
-
-import function
 message=input("what do you want to enter？：")
 print(message)
 """
-1我都懒得说了，input里是出现的消息
+第七章
+用户输入和while循环
+"""
+"""
+1input里的参数是会输出到控制台的消息
 2而input读入的是字符串，如果我想要读入int
 int(内部必须是以有效整数表示的字符串)
 这样来转换一下
@@ -29,7 +30,7 @@ while lai xiugai yuansu ?
 那么用 'cat' in pets 
 然后来pets.remove('cat')
 remove似乎只会remove离一开始最近的那个？？
-while 标志
+while 标志，这while后面都不用括号的
 然后输入
 每次输入都处理一下
 ，对比一下输入是不是 某个输入，决定是否暂停输入
