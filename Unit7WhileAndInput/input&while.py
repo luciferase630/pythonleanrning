@@ -1,3 +1,5 @@
+
+from module import f1
 message=input("what do you want to enter？：")
 print(message)
 """
@@ -40,6 +42,7 @@ x =1
 while x <= 5:
     print(x)
     x +=1
-f1(2)
+f1(3)
+
 
 #可以，这一章，非常简单
